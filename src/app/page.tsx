@@ -8,17 +8,17 @@ export const dynamic = 'force-dynamic';
 
 export default async function Home() {
 
-  const produtos = await getProdutosAPI();
+  //const produtos = await getProdutosAPI();
 
   return (
     <div style={{ padding: '20px' }}>      
       <Container>
          <Row>
-          {
+{/*           {
             produtos.map((produto: Produto) => (             
                 <CardProduto produto={produto} key={produto.codigo}/>           
             ))
-          }
+          } */}
         </Row>
       </Container>
     </div>
