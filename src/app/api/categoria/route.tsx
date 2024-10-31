@@ -2,7 +2,6 @@ import { NextRequest, NextResponse } from "next/server";
 import { addCategoriaDB, getCategoriasDB, updateCategoriaDB } from "@/bd/useCases/categoriaUseCases";
 import Categoria from "@/bd/entitites/Categoria";
 
-//req is short for request
 export async function GET(request: NextRequest) {
     try {
         const dados: Categoria[] = await getCategoriasDB();

@@ -1,8 +1,6 @@
 import { NextRequest, NextResponse } from "next/server";
 import { getCategoriaPorCodigoDB, deleteCategoriaDB } from "@/bd/useCases/categoriaUseCases";
 
-//req is short for request
-
 type FindByCodigo = {
 	codigo: string;
 };

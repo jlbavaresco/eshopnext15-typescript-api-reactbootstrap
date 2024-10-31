@@ -2,7 +2,6 @@ import { NextRequest, NextResponse } from "next/server";
 import { getProdutosDB, addProdutoDB, updateProdutoDB } from "@/bd/useCases/produtoUseCases";
 import Produto from "@/bd/entitites/Produto";
 
-//req is short for request
 export async function GET(request: NextRequest) {
     try {
         const dados: Produto[] = await getProdutosDB();
