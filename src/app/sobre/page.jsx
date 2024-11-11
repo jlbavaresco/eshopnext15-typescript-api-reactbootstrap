@@ -14,7 +14,7 @@ export default function Sobre() {
                             <Card.Header>Sobre o sistema....</Card.Header>
                             <Card.Body >
                                 <Card.Title>IFSUL - 2024</Card.Title>
-                                <Card.Subtitle className="mb-2 text-muted">NextJS 14</Card.Subtitle>
+                                <Card.Subtitle className="mb-2 text-muted">NextJS 15</Card.Subtitle>
                                 <Card.Text>
                                     React BootStrap + API
                                 </Card.Text>
