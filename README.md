@@ -3,7 +3,7 @@
 
 ## Instalando as dependências:
 
-Para forcar a instalação das dependências em razão de algumas bibliotecas não reconhecerem o React 19 digite o seguinte comando após baixar o projeto:
+Para forçar a instalação das dependências em razão de algumas bibliotecas não reconhecerem o React 19 digite o seguinte comando após baixar o projeto:
 
 ```bash
 npm i --force
